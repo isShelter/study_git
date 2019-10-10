@@ -25,6 +25,7 @@ git checkout <branch_name> / git switch <name>
 git checkout -b <name> / git switch -c <name>
 git merge <name>
 git branch -d <name>
+git log --graph
 
 
 
