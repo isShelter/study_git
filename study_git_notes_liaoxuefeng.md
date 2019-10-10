@@ -1,18 +1,35 @@
 ## 常用git命令
 
-- git init
-- git add <file>
-- git commit -m 'add a file'
-- git status
-- git diff
-- git reset --hard^
-- git reset --hard <commit_id>
-- git log
-- git log pretty=oneline
-- git reflog
-- git diff HEAD -- <file>
-- git checkout -- file
-- git reset HEAD file
+```
+git init
+git add <file>
+git commit -m 'add a file'
+git status
+git diff
+git reset --hard^
+git reset --hard <commit_id>
+git log
+git log pretty=oneline
+git reflog
+git diff HEAD -- <file>
+git checkout -- file
+git reset HEAD file
+
+git checkout -b dev  <=> git branch dev; git checkout dev;
+git merge dev
+git branch -d <dev>
+###
+git branch
+git branch <name>
+git checkout <branch_name> / git switch <name>
+git checkout -b <name> / git switch -c <name>
+git merge <name>
+git branch -d <name>
+
+
+```
+
+
 
 
 
